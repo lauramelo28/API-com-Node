@@ -1,0 +1,22 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon api.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Laura Enísia Rodrigues Melo - 1402030",
+    "description": "Api para o cadastro de produtos",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1",
+        "cors": "^2.8.5",
+        "mssql": "^10.0.1",
+        "body-parser": "^1.20.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "keywords": []
+}
